@@ -13,10 +13,9 @@ mkdir プロジェクト名
 # コンテナの作成・起動
 docker-compose up -d
 
-# コンテナの状態を確認
+# コンテナの状態を確認しUPになっていれば起動完了
 docker ps -a
-
-# コンテナの状態を確認しUPになっていれば起動完了  
+  
 CONTAINER ID   IMAGE                   COMMAND                  CREATED        STATUS                    PORTS                               NAMES
 83b9cbbb1d94   mysql:5.7               "docker-entrypoint.s…"   3 hours ago    Up 10 seconds             0.0.0.0:3306->3306/tcp, 33060/tcp   mysql
 a0a31312cac4   php73                   "docker-php-entrypoi…"   3 hours ago    Up 9 seconds              0.0.0.0:8080->80/tcp                apache-php
