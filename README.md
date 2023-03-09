@@ -28,7 +28,7 @@ phpmyadmin/phpmyadmin   "/docker-entrypoint.…"   3 hours ago    Up 10 seconds 
 - 最後に http://localhost:8080/index.php へアクセスし"docker LAMP"と表示されれば無事終了
 
 
-#  コンテナ操作
+## コンテナ操作
 ```
 # 停止
 docker-compose stop
